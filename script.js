@@ -19,7 +19,7 @@ function elementsvisible()
         formhtml.innerHTML+=
         `
          <label for="course${i+1}" class="name">Course${i+1} Name:</label>
-        <input type="text" class="course" placeholder="-">
+        <input type="text" class="course" placeholder="#Course${i+1}">
         <select name="Grade" id="grade${i+1}" class="grade">
               <option value="4.00">A+</option>
   
